@@ -8,7 +8,7 @@ function takeANumber(katzDeliLine,name) { // katzDeliLine and name are the param
 // Multiple people have been added to the line and they are given their number in line as they are queued up. 
 
 function nowServing(katzDeliLine) {
-  if (katzDeliLine.length === 0) 
+  if (katzDeliLine.length === 0) // If the line is empty, return 'There is nobody waiting to be served'
   return "There is nobody waiting to be served!"
   else 
   return `Currently serving ${katzDeliLine.shift()}.`
